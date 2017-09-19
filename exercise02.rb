@@ -3,9 +3,9 @@ answer = gets.chomp.to_i
 
 def negative?(num)
   if num > 0
-    return "It's greater than zero"
+    return true
   else
-    return "It's less than zero"
+    return false
 end
 
 result = negative?(answer)
