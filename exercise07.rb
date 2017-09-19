@@ -16,10 +16,14 @@
 # You'll have to call the same method multiple times.
 # Try breaking down the problem into smaller pieces that you know wrap_text can solve.
 
+text = "Bitmaker"
 char = "---===###"
 char_reverse = char.reverse
 
 
-def wrap_text(text,char,char_reverse)
-
+def wrap_text(word,first_symbol,second_symbol)
+  return first_symbol+word+second_symbol
 end
+
+result = wrap_text(text,char,char_reverse)
+puts result
