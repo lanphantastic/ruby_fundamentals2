@@ -6,7 +6,7 @@ def negative?(num)
     return true
   else
     return false
+  end
 end
 
-result = negative?(answer)
-puts result
+puts result = negative?(answer)
