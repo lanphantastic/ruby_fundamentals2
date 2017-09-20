@@ -65,12 +65,12 @@ speed = []
 runner = ["Bob", "Cindy", "Harry"]
 
 ##### FOR LOOP BY USING EACH WITH INDEX #####
-runner.each_with_index {| name,index|
+runner.each_with_index {| person,index| # For each person in the runner array, do (input code below)
 
-  puts "How far did #{name} run (in metres)?"
+  puts "How far did #{person} run (in metres)?"
   distance[index] = gets.to_f
 
-  puts "How long (in minutes) did #{name} run take to run #{distance[index]} metres?"
+  puts "How long (in minutes) did #{person} run take to run #{distance[index]} metres?"
   mins[index] = gets.to_f
 
   # speed calculation
